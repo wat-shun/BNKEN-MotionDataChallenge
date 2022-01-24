@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bnken-motiondatachallenge"
+version = "0.1.0"
+description = ""
+authors = ["wat_shun <wshun0327@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+jupyter = "^1.0.0"
+torch = "^1.10.1"
+torchvision = "^0.11.2"
+torchtext = "^0.11.1"
+torchaudio = "^0.10.1"
+tqdm = "^4.62.3"
+pandas = "^1.3.5"
+torch-summary = "^1.4.5"
+matplotlib = "^3.5.1"
+sklearn = "^0.0"
+tensorflow = "^2.7.0"
+tensorboard = "^2.7.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
